@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2807F5281D35390600F206F7 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2807F5271D35390600F206F7 /* Roboto-Regular.ttf */; };
+		2807F5291D35391900F206F7 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 283626E11D33EDF7006257C4 /* Roboto-Thin.ttf */; };
+		2807F52A1D35391900F206F7 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 283626E21D33EF22006257C4 /* Roboto-Medium.ttf */; };
+		283626E51D342B37006257C4 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283626E41D342B37006257C4 /* AccountsViewController.swift */; };
+		283626E71D342B87006257C4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283626E61D342B87006257C4 /* LoginViewController.swift */; };
+		283626E91D342BA7006257C4 /* CoverPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283626E81D342BA7006257C4 /* CoverPageViewController.swift */; };
+		288B8ED01D30008000837059 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B8ECF1D30008000837059 /* AppDelegate.swift */; };
+		288B8ED21D30008000837059 /* SummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B8ED11D30008000837059 /* SummaryViewController.swift */; };
+		288B8ED51D30008000837059 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B8ED31D30008000837059 /* Main.storyboard */; };
+		288B8ED71D30008000837059 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 288B8ED61D30008000837059 /* Assets.xcassets */; };
+		288B8EDA1D30008000837059 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 288B8ED81D30008000837059 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2807F5271D35390600F206F7 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		283626E11D33EDF7006257C4 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		283626E21D33EF22006257C4 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		283626E41D342B37006257C4 /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		283626E61D342B87006257C4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		283626E81D342BA7006257C4 /* CoverPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverPageViewController.swift; sourceTree = "<group>"; };
+		288B8ECC1D30008000837059 /* Zebra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zebra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		288B8ECF1D30008000837059 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		288B8ED11D30008000837059 /* SummaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryViewController.swift; sourceTree = "<group>"; };
+		288B8ED41D30008000837059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		288B8ED61D30008000837059 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		288B8ED91D30008000837059 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		288B8EDB1D30008000837059 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		288B8EC91D30008000837059 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		288B8EC31D30008000837059 = {
+			isa = PBXGroup;
+			children = (
+				288B8ECE1D30008000837059 /* Zebra */,
+				288B8ECD1D30008000837059 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		288B8ECD1D30008000837059 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				288B8ECC1D30008000837059 /* Zebra.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		288B8ECE1D30008000837059 /* Zebra */ = {
+			isa = PBXGroup;
+			children = (
+				288B8ECF1D30008000837059 /* AppDelegate.swift */,
+				288B8ED11D30008000837059 /* SummaryViewController.swift */,
+				283626E41D342B37006257C4 /* AccountsViewController.swift */,
+				283626E61D342B87006257C4 /* LoginViewController.swift */,
+				283626E81D342BA7006257C4 /* CoverPageViewController.swift */,
+				288B8ED31D30008000837059 /* Main.storyboard */,
+				288B8ED61D30008000837059 /* Assets.xcassets */,
+				288B8ED81D30008000837059 /* LaunchScreen.storyboard */,
+				288B8EDB1D30008000837059 /* Info.plist */,
+				283626E11D33EDF7006257C4 /* Roboto-Thin.ttf */,
+				2807F5271D35390600F206F7 /* Roboto-Regular.ttf */,
+				283626E21D33EF22006257C4 /* Roboto-Medium.ttf */,
+			);
+			path = Zebra;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		288B8ECB1D30008000837059 /* Zebra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 288B8EDE1D30008000837059 /* Build configuration list for PBXNativeTarget "Zebra" */;
+			buildPhases = (
+				288B8EC81D30008000837059 /* Sources */,
+				288B8EC91D30008000837059 /* Frameworks */,
+				288B8ECA1D30008000837059 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zebra;
+			productName = Zebra;
+			productReference = 288B8ECC1D30008000837059 /* Zebra.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		288B8EC41D30008000837059 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Andrew Cvekl";
+				TargetAttributes = {
+					288B8ECB1D30008000837059 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 837NFT5US7;
+					};
+				};
+			};
+			buildConfigurationList = 288B8EC71D30008000837059 /* Build configuration list for PBXProject "Zebra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 288B8EC31D30008000837059;
+			productRefGroup = 288B8ECD1D30008000837059 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				288B8ECB1D30008000837059 /* Zebra */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		288B8ECA1D30008000837059 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2807F5291D35391900F206F7 /* Roboto-Thin.ttf in Resources */,
+				2807F52A1D35391900F206F7 /* Roboto-Medium.ttf in Resources */,
+				288B8EDA1D30008000837059 /* LaunchScreen.storyboard in Resources */,
+				288B8ED71D30008000837059 /* Assets.xcassets in Resources */,
+				2807F5281D35390600F206F7 /* Roboto-Regular.ttf in Resources */,
+				288B8ED51D30008000837059 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		288B8EC81D30008000837059 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				283626E71D342B87006257C4 /* LoginViewController.swift in Sources */,
+				288B8ED21D30008000837059 /* SummaryViewController.swift in Sources */,
+				283626E51D342B37006257C4 /* AccountsViewController.swift in Sources */,
+				288B8ED01D30008000837059 /* AppDelegate.swift in Sources */,
+				283626E91D342BA7006257C4 /* CoverPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		288B8ED31D30008000837059 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288B8ED41D30008000837059 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		288B8ED81D30008000837059 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				288B8ED91D30008000837059 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		288B8EDC1D30008000837059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		288B8EDD1D30008000837059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		288B8EDF1D30008000837059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Zebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Cvekl.Zebra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		288B8EE01D30008000837059 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Zebra/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrew-Cvekl.Zebra";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		288B8EC71D30008000837059 /* Build configuration list for PBXProject "Zebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B8EDC1D30008000837059 /* Debug */,
+				288B8EDD1D30008000837059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		288B8EDE1D30008000837059 /* Build configuration list for PBXNativeTarget "Zebra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				288B8EDF1D30008000837059 /* Debug */,
+				288B8EE01D30008000837059 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 288B8EC41D30008000837059 /* Project object */;
+}
